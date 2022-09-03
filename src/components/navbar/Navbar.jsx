@@ -27,9 +27,9 @@ const Navbar = () => {
                     <a href='/'>Contact</a>
                 </li>
             </ul>'
-            <div className='btn-group'>
+            {/*<div className='btn-group'>
                 <button className='btn'>Connect Wallet</button>
-            </div>
+            </div>*/}
             <div className="hamburger" onClick={handleClick}>
                 {click ? (<FaTimes/>): <FaBars size={20} style={{color: '#333'}}/>}
                 

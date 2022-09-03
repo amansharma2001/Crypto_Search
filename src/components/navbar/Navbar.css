@@ -23,10 +23,12 @@
 }
 
 .nav-menu {
+    margin-left: 75px;
     display: flex;
 }
 
 .nav-menu li {
+    margin-left: 50px;
     padding: 0 1rem;
 }
 
